@@ -1,0 +1,80 @@
+/* main */
+main {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  width: 50em;
+  margin-left: auto;
+  margin-right: auto;
+  }
+  /* header */
+  .header-content {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(102, 130, 182);
+  }
+  .avatar {
+    float: left;
+    width: 200px;
+    height: 200px;
+  }
+  .name-item {
+    float: right;
+    margin-left: 40px;
+  }
+  .right-side {
+    margin-right: 50px;
+  }
+  div .left-side, div .right-side {
+    width: 50%;
+  }
+  h3 {
+    margin-left: 10px;
+  }
+  ul {
+    list-style: none;
+  }
+  .section {
+    border-bottom: solid rgb(102, 130, 182) 3px;
+  }
+  a {
+    text-decoration: none;
+    color: #000;
+  }
+  .progressBar {
+      margin-bottom: 26px;
+      margin-bottom: 1.66em;
+      background-color: #E1E1E1;
+      border-radius: 10px;
+      height: 5px;
+  }
+  .progressBar h4 {
+      font-size: 15px;
+      text-transform: none;
+      margin-bottom: 7px;
+      margin-bottom: .33em;
+  }
+  .progress-bar {
+    height: 100%;
+    width: 50%;
+    background: linear-gradient(135deg, #ff6c6c, #4bbdd0);
+    border-radius: 10px;
+    position: relative;
+    transition: all 5.0s;
+  }
+  .progress-bar span {
+    position: absolute;
+    top: -300%;
+    right: 0%;
+  }
+  .progressBarContainer {
+      border: none;
+      width: 100%;
+      height: 8px;
+      overflow: hidden;
+    position: relative;
+  }
+
+  /* footer */
+  .footer {
+    margin: 30px;
+  }
+  
