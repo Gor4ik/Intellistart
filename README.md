@@ -1,1 +1,1 @@
-https://Gor4ik.github.io/cv/
+https://gor4ik.github.io/cv/
